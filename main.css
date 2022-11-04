@@ -1,23 +1,14 @@
 
-.has-search .form-control {
-    padding-left: 2.375rem;
-}
-
-.has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-}
-
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
-  }
+}
+
+body {
+    a:link {text-decoration:none}
+    a:visited {text-decoration:none}
+    a:hover {text-decoration:underline}
+    a:active {text-decoration:none}
+}
