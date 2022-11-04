@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Title -->
+    <title>SWORD</title>
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />    <title>SWORD Store</title>
+    <!-- Google Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -13,12 +18,15 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
         <div class="container-fluid" style="width: 85%;">
             <!-- Navbar Brand -->
-            <!-- <a class="navbar-brand" href="#">SWORD</a> -->
-            <img src="swordlogo.png" alt="" style="height: 70px; width:114.4px;">
+            <img src="images/swordlogo.png" alt="" style="height: 50px; width:70.5px;">
+            <!-- Navbar Brand -->
+
             <!-- Navbar Collapse -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="material-symbols-rounded">menu</span>
             </button>
+            <!-- Navbar Collapse -->
+
             <!-- Navbar Elements -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <!-- Navbar Links -->
@@ -36,6 +44,8 @@
                         <a class="nav-link" href="#">Criança</a>
                     </li>
                 </ul>
+                <!-- Navbar Links -->
+
                 <!--  Navbar Search -->
                 <div class="navbar navbar-right">
                     <div class="input-group">
@@ -50,22 +60,42 @@
                         </span>
                     </div>
                 </div>
+                <!--  Navbar Search -->
             </div>
+            <!-- Navbar Elements -->
         </div>
     </nav>
 
     <!-- Main Content -->
     <main class="container-fluid my-4" style="width: 85%;">
         <!-- Main Image Pannel -->
-        <div class="container-fluid rounded" style="height: 300px; background-color:beige;">
-            <!-- Falta a imagem aqui 100% 100% -->
+        <div class="container-fluid" style="height: 500px; background-color:beige;">
+            <!-- Missing Image 100% 100% -->
         </div>
+        <!-- Main Image Pannel -->
+
+        <!-- Carousel -->
+        <div id="carouselSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-interval="100" style="background-color:black">
+            <div class="carousel-inner text-white text-uppercase" style="font-size:small">
+                <div class="carousel-item active text-center p-1">
+                    <span class="material-symbols-rounded align-middle">receipt</span><span class="align-middle">Pagamento à cobrança</span>
+                </div>
+                <div class="carousel-item text-center p-1">
+                    <span class="material-symbols-rounded align-middle">sync</span><span class="align-middle">Envios e devoluções grátis</span>
+                </div>
+                <div class="carousel-item text-center p-1">
+                    <span class="material-symbols-rounded align-middle">production_quantity_limits</span><span class="align-middle">100 dias de direito de devolução</span>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel -->
 
         <!-- Page Divider -->
         <hr/>
+        <!-- Page Divider -->
 
         <!-- Main Image Showcase -->
-        <!-- Gallery -->
+        <!-- Sales -->
         <div class="row">
             <div class="col-lg-4 mb-4 mb-lg-0">
                 <figure class="w-100 shadow-1-strong rounded mb-4">
@@ -110,7 +140,8 @@
                 </figure>
             </div>
         </div>
-        <!-- Gallery -->
+        <!-- Sales -->
+        <!-- Main Image Showcase -->
 
     </main>
     <!-- Footer -->
@@ -168,9 +199,9 @@
             </div>
         </section>
         <!-- Section: Links  -->
+
         <!-- Section: Social media -->
        <section class="d-flex justify-content-center p-3">
-                <!-- Right -->
                 <div class="d-flex justify-content-center">
                     <a href="#" class="me-4 link-secondary text-decoration-none">
                         <i class="fa fa-facebook-f"></i>
@@ -182,7 +213,6 @@
                         <i class="fa fa-instagram"></i>
                     </a>
                 </div>
-                <!-- Right -->
         </section>
         <!-- Section: Social media -->
 
@@ -194,6 +224,7 @@
         <!-- Copyright -->
     </footer>
     <!-- Footer -->
+<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
